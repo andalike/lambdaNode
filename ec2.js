@@ -1,3 +1,5 @@
+//Change timeout to 20 seconds
+
 var AWS = require('aws-sdk');
 AWS.config.update({ region: 'us-east-1' });
 var ec2 = new AWS.EC2({ apiVersion: '2016-11-15' });
